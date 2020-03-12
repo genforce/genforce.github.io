@@ -4,7 +4,7 @@
 body {
 	background: #e3e5e8;
 	color: #ffffff;
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
 	font-weight: 300;
 	font-size: 14pt;
 }
@@ -123,8 +123,7 @@ pre {
 	text-align: center;
 }
 .homepage .header img{
-	height: 50pt;
-	width: 50pt;
+	height: 80pt;
 	float: left;
 	object-fit: cover;
 	margin-left: 20pt;
