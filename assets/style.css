@@ -101,3 +101,85 @@ pre {
   margin: 0 8pt 8pt 0;  /*top right bottom left*/
   width: 120pt;
 }
+
+/* Homepage */
+/* Followings can be removed for single project page. */
+.homepage {
+	width: 768pt;
+	min-height: 100pt;
+	margin: 15pt auto;
+	padding: 20pt;
+	border: 1pt hidden #000;
+	text-align: justify;
+	color: #000000;
+	background: #ffffff;
+}
+
+.homepage .header {
+	margin-top: 30pt;
+	margin-bottom: 60pt;
+	margin-right: 70pt;
+	font-size: 28pt;
+	text-align: center;
+}
+.homepage .header img{
+	height: 50pt;
+	width: 50pt;
+	float: left;
+	object-fit: cover;
+	margin-left: 20pt;
+}
+
+.homepage .section {
+	text-align: left;
+	font-size: 25pt;
+	font-weight: bolder;
+	margin: 50pt 20pt 20pt 20pt;  /*top right bottom left*/
+}
+
+.homepage .project {
+	height: 130pt;
+	outline: thin dotted #666666;
+	margin: 10pt 20pt 10pt 20pt;  /*top right bottom left*/
+}
+.homepage .project .image{
+  height: 120pt;
+  width: 160pt;
+  float: left;
+  text-align: center;
+  vertical-align: top;
+}
+.homepage .project .image img{
+	height: 120pt;
+	width: 160pt;
+	object-fit: cover;
+	border-radius: 6pt;
+	box-shadow: 1pt 1pt 2pt #888888;
+	-moz-box-shadow: 1pt 1pt 2pt #888888;
+	-webkit-box-shadow: 1pt 1pt 2pt #888888;
+	margin: 5pt;
+}
+.homepage .project .info {
+	font-size: 16pt;
+	text-align: left;
+	margin: 10pt 20pt 0 180pt;  /*top right bottom left*/
+}
+
+.homepage .avatar {
+	margin: -10pt 20pt 320pt 0pt;  /*top right bottom left*/
+}
+.homepage .avatar table {
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 10pt auto;
+	text-align: center;
+	font-size: 16pt;
+	border-collapse: separate;
+	border-spacing: 20pt 10pt;
+}
+.homepage .avatar img {
+	height: 100pt;
+	width: 100pt;
+	object-fit: cover;
+}
