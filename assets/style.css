@@ -81,6 +81,33 @@ a:hover {color: #f09228;}
   text-align: left;
 }
 
+/* Tutorials */
+.homepage .tutorial {
+  height: 130pt;
+  outline: thin dotted #666666;
+  margin: 10pt 20pt 10pt 20pt;  /*top right bottom left*/
+}
+.homepage .tutorial .image {
+  height: 120pt;
+  width: 160pt;
+  float: left;
+}
+.homepage .tutorial .image img {
+  height: 120pt;
+  width: 160pt;
+  margin: 5pt;
+  object-fit: cover;
+  border-radius: 6pt;
+  box-shadow: 1pt 1pt 2pt #888888;
+  -moz-box-shadow: 1pt 1pt 2pt #888888;
+  -webkit-box-shadow: 1pt 1pt 2pt #888888;
+}
+.homepage .tutorial .info {
+  margin: 10pt 20pt 0 180pt;  /*top right bottom left*/
+  font-size: 16pt;
+  text-align: left;
+}
+
 /* Avatars */
 .homepage .avatar {
   margin: -10pt 20pt 320pt 0pt;  /*top right bottom left*/
