@@ -42,9 +42,15 @@ a:hover {color: #f09228;}
 }
 .homepage .header .title {
   margin: 0 70pt 0 110pt;  /* top right bottom left */
-  padding-top: 25pt;
+  padding-top: 5pt;
   text-align: center;
   font-size: 28pt;
+}
+.homepage .header .subtitle {
+  margin: 0 70pt 0 110pt;  /* top right bottom left */
+  padding-top: 5pt;
+  text-align: center;
+  font-size: 20pt;
 }
 
 .homepage .section {
