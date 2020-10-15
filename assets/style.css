@@ -116,7 +116,7 @@ a:hover {color: #f09228;}
 
 /* Avatars */
 .homepage .avatar {
-  margin: -10pt 20pt 450pt 0pt;  /*top right bottom left*/
+  margin: -10pt 20pt 455pt 0pt;  /*top right bottom left*/
 }
 .homepage .avatar table {
   float: left;
@@ -132,4 +132,9 @@ a:hover {color: #f09228;}
   height: 100pt;
   width: 100pt;
   object-fit: cover;
+}
+
+/* Acknowledgment */
+.homepage .acknowledgement {
+  margin: 10pt 20pt 30pt 20pt;  /*top right bottom left*/
 }
