@@ -116,13 +116,13 @@ a:hover {color: #f09228;}
 
 /* Avatars */
 .homepage .avatar {
-  margin: -10pt 20pt 50pt 0pt;  /*top right bottom left*/
+  margin: -10pt 20pt 30pt 20pt;  /*top right bottom left*/
 }
 .homepage .avatar table {
   float: left;
   width: auto;
   height: auto;
-  margin: 10pt 0pt;
+  margin: 10pt 00pt;
   text-align: center;
   font-size: 16pt;
   border-collapse: separate;
